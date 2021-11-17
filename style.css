@@ -1,0 +1,103 @@
+body{
+    background-color: #BCBCBC;
+    color: #000000;
+}
+#container{
+    width:1300px;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#one{
+    background-color:whitesmoke;
+    float:left;
+    width:300px;
+    height: 70px;
+    text-decoration: none;
+    border-right: black;
+    text-align: center;
+    display: block;
+    border-right:1px outset black; 
+    
+}
+
+#two{
+    background-color:whitesmoke;
+    float:left;
+    width:300px;
+    height: 70px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-right:1px outset black; 
+}
+
+#tree{
+    background-color:whitesmoke;
+    float:left;
+    width:300px;
+    height: 70px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-right:1px outset black; 
+}
+
+#four{
+    background-color:whitesmoke;
+    float:left;
+    width:300px;
+    height:70px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color:black; 
+    font-size: 23px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    cursor:hand;
+}
+
+li{
+    list-style: none;
+}
+
+#content{
+    background-color:whitesmoke;
+    position:absolute;
+    clear: both;
+    margin-top:90px;
+    width:1200px;
+    height:500px;
+}
+#lewo{
+    background-color: rgb(162, 226, 221);
+    width:600px;
+    border-radius: 15px;
+    font-family: 'Lobster Two', cursive;
+}
+#lewo2{
+    background-color: rgb(162, 226, 221);
+    width:600px;
+    border-radius: 15px;
+    font-family: 'Lobster Two', cursive;
+}
+
+#footer{
+    background-color:rgb(22, 21, 21);  
+    clear:both;
+    width: 1200px;
+    height: 20px;
+    margin-top: 850px;
+    color:white;
+    text-align: center;
+}
