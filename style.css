@@ -14,50 +14,39 @@ body{
     text-align: center;
 }
 
-#one{
-    background-color:whitesmoke;
-    float:left;
-    width:300px;
-    height: 70px;
-    text-decoration: none;
-    border-right: black;
-    text-align: center;
-    display: block;
-    border-right:1px outset black; 
+ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:18px;
+  height:2em;
+  line-height:2em;
+  text-align:center;
+  height:35px;
+  width:2250px;
+  float:left;
+  text-align:center;
+} 
     
+ul > li {
+  float:left;
+  background-color:whitesmoke;
+  width:310px;
+  border:solid 1px black;
+}
+ul a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  padding:0 5px;
+}
+ul > li > a:hover {
+  color:black;
+  background:#00CCCC;
 }
 
-#two{
-    background-color:whitesmoke;
-    float:left;
-    width:300px;
-    height: 70px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    border-right:1px outset black; 
-}
 
-#tree{
-    background-color:whitesmoke;
-    float:left;
-    width:300px;
-    height: 70px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    border-right:1px outset black; 
-}
 
-#four{
-    background-color:whitesmoke;
-    float:left;
-    width:300px;
-    height:70px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-}
 
 a{
     text-decoration: none;
@@ -101,3 +90,12 @@ li{
     color:white;
     text-align: center;
 }
+#nawigacja{
+	width:1000px;
+	
+}
+#zdjecie{
+	width:100px;
+	height:100px;
+}
+
